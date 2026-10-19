@@ -1,0 +1,32 @@
+# Gradle
+.gradle/
+**/build/
+*.gradle.kts.bak
+
+# Local Android SDK configuration
+local.properties
+
+# Kotlin Multiplatform and native build outputs
+.kotlin/
+.cxx/
+.externalNativeBuild/
+
+# Android build and profiling outputs
+captures/
+*.apk
+*.aab
+*.ap_
+
+# Kotlin/Native and iOS generated outputs
+**/iosApp/DerivedData/
+**/iosApp/build/
+**/*.xcarchive/
+**/*.framework/
+**/*.klib
+xcuserdata/
+
+# TP instructions and assistant metadata
+TP1.md
+TP1.pdf
+.idea/copilot.data.migration.ask2agent.xml
+.copilot/
